@@ -47,7 +47,7 @@
     -->
 	
  	<preference name="SplashScreenDelay" value="1000" />
- 	<vs:platformSpecificValues />
+ 	
 
     <!-- Plugins -->
 
