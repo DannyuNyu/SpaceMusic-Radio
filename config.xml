@@ -47,7 +47,6 @@
     -->
 	<preference name="auto-hide-splash-screen" value="false" />
  	<preference name="SplashScreenDelay" value="1000" />
- 	<vs:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
  	<vs:platformSpecificValues />
 
     <!-- Plugins -->
