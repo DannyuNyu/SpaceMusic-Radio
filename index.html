@@ -20,7 +20,7 @@
 			<style>section{overflow:hidden !important;}</style>
 			<script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script>
 		<![endif]-->
-        <META HTTP-EQUIV="refresh" CONTENT="3;URL=http://spaceapp.enlaviaec.com/radio-online">
+        <META HTTP-EQUIV="refresh" CONTENT="3;URL=http://spaceapp.enlaviaec.com/">
 	</head>
 <body>
 <!--PRELOADER ##########################-->
@@ -42,6 +42,13 @@
 	<script src="js/plugin.min.js"></script>
 	<script src="js/modernizr.custom.js"></script>
 	<script src="js/main.js"></script>
+    document.addEventListener("deviceready", onDeviceReady, false);
+<script>
+function onDeviceReady() {
+    setTimeout(function () {
+        navigator.splashscreen.hide();
+    }, 5000);
+}</script>
 </body>
 </html>
 <!-- Localized -->
