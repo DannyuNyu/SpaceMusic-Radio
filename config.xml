@@ -18,6 +18,8 @@
 
     <!-- Define the main entry-point to the application -->
     <content src="index.html" />
+	<application
+        android:theme="@style/Theme.NoBackground" >
 
     <!--
         If you do not want any permissions to be added to your app, add the
@@ -139,8 +141,5 @@
     </platform>
 
     <resources>
-    <style name="Theme.NoBackground" parent="android:Theme">
-        <item name="android:windowBackground">@null</item>
-    </style>
 </resources>
 </widget>
